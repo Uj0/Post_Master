@@ -1,0 +1,28 @@
+.AddPost{
+  width: 100%;
+  background-color: rgba(32, 32, 35, 1);
+  height: 100vh;
+  border-right: 1px solid rgba(189, 189, 192, 0.1);
+  transition: width 0.3s;
+  overflow-y: scroll;
+}
+
+.AddPostContent{
+  margin: 10px;
+  color: #fff;
+}
+
+#TitleIn, #PostIn{
+  width: 100%;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: 0;
+}
+
+#PostIn{
+
+}

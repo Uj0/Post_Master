@@ -1,0 +1,56 @@
+.PostWindow{
+  width: 50%;
+  background-color: rgba(32, 32, 35, 1);
+  height: 100vh;
+  border-right: 1px solid rgba(189, 189, 192, 0.1);
+  transition: width 0.3s;
+  overflow-y: scroll;
+}
+
+.Post{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#Tile{
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  overflow-x: hidden;
+}
+
+#Tile:hover{
+  background: #696969;
+}
+
+#Post{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  color: #fff;
+  padding: 1rem;
+  background: linear-gradient(90deg, #1986d8, #7b9cc2);
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+#Post:hover{
+  background: linear-gradient(90deg, #7b9cc2, #1986d8);
+}
+
+#AddPostBtn{
+  margin: 5px;
+  float: right;
+  border-radius: 50%;
+}
+
+#SignOutBtn{
+  margin: 5px;
+}
